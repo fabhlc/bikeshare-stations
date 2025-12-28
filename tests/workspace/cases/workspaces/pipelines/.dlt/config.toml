@@ -1,3 +1,0 @@
-[pipelines.ducklake_pipeline]
-destination_type="ducklake"
-dataset_name="lake_data"

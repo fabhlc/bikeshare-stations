@@ -1,6 +1,0 @@
-[workspace.settings]
-name="name_override"
-working_dir="_data"
-
-[workspace.runtime]
-pipeline_name="component"
