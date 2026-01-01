@@ -1,0 +1,8 @@
+dbt_bikeshare:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      schema: main
+      threads: 4
+      path: "md:bikeshare_db"

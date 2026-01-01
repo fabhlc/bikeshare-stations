@@ -4,5 +4,6 @@ version = "0.1.0"
 description = "Bikeshare station status scraper using dlt"
 requires-python = ">=3.11"
 dependencies = [
+    "dbt-duckdb>=1.10.0",
     "dlt[duckdb,motherduck]>=1.5.0",
 ]
