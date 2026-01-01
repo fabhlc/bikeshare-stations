@@ -1,0 +1,10 @@
+sources:
+  - name: dlt_bikeshare
+    database: bikeshare_db  
+    schema: bikeshare  
+    tables:
+      - name: station_status
+      - name: stations_info
+      - name: station_info__groups
+      - name: stations_info__rental_methods
+      - name: _dlt_loads
