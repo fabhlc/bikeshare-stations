@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: modeled__dlt_load_times_parsed
+    description: >
+      This model highlights how complete bikeshare data is as ingested by dlt from the Bikeshare API.
+  - name: modeled__station_status_load_delta
+    description: >
+      This model compares load ingestion times with the last reported time for each station
+      to size out the delta between actual data and when it was ingested. We consider "15 minutes" to 
+      be the threshold for what is considered "late" or "fresh".
+  - name: modeled__station_status_with_station_info
+    description: >
+      Station status enriched with station metadata. Joins bike/dock availability with static station
+      info (name, capacity) and calculates availability rates.
